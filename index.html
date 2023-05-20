@@ -7,23 +7,31 @@
   </head>
 
   <body>
-    <Header id="header">
-      <nav id="nav-bar">
-        <a class="nav-link" href="#">Test</a>
-        <a class="nav-link" href="#">Test</a>
-        <a class="nav-link" href="#">Test</a>
-      </nav>
-      <img style="display:inline; height: 5px;" src="" id="header-img">
-    </Header>
+    
     
     
     <div id="page">
+      <Header id="header">
+        
+        <nav id="nav-bar">
+          <div class="logo">
+            <h1>TEST</h1>
+            <img src="./logo.png">
+          </div>
+          <div id="links">
+            <a class="nav-link" href="#products">Products</a>
+            <a class="nav-link" href="#pricing">Pricing</a>
+            <a class="nav-link" href="#about">About</a>  
+          </div>
+    </nav>
+        <img style="display:inline; height: 5px;" src="" id="header-img">
+      </Header>
     <h1>Handcrafted, home-made masterpieces</h1>
     <form id="form" action="https://www.freecodecamp.com/email-submit">
       <input id="email" type="email" placeholder="write your email in here">
       <button style="font-weight:900;">GET STARTED</button>
     </form>
-    <section>
+    <section id="pricing">
       <div id="advert">
         <img src="https://cdn.dribbble.com/userupload/3158902/file/original-7c71bfa677e61dea61bc2acd59158d32.jpg?resize=400x300" alt="logo">
         <div>
@@ -48,7 +56,11 @@
      
     </section>
 
-    <video src="https://www.youtube.com/watch?v=Kbj2Zss-5GY&pp=ygUFbXVzaWM%3D"></video>
+    <iframe width="420" height="315"
+    src="https://www.youtube.com/embed/tgbNymZ7vqY">
+    </iframe>
+
+
     <section id="products">
       <div class="product-tile">
         <h3>TENOR TROMBONE</h3>
@@ -87,7 +99,7 @@
       
         
     </section>
-    <footer>
+    <footer id="about">
       <div>
         <a href="">Privacy</a>
         <a href="">Terms</a>
