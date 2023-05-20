@@ -3,7 +3,14 @@
     padding: 0;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+    background: #eee;
 }
+
+#page{
+    margin-top: 60px;
+    padding: 0 10%;
+}
+
 a 
 {
     text-decoration: none;
@@ -37,14 +44,25 @@ a
 }
 
 h1{
-    margin-top: 60px;
     text-align: center;
+    margin-bottom: 20px;
 }
-button{
-    display: block;
-    margin: auto;
+#email{
+    padding: 5px;
 }
 
+button{
+    display: block;
+    margin: 15px auto;
+    background: #f1c40f;
+    padding: 10px;
+    border: #f1c40f;
+    
+}
+button:hover{
+    background: #dbb004;
+    border: #dbb004;
+}
 form{
     text-align: center;
 }
@@ -52,10 +70,20 @@ form{
 img{
     height: 75px;
     width: 80px;
+    margin-right: 25px;
 }
 
 #advert{
     display: flex;
+}
+
+h3{
+    font-size: 17px;
+    background: rgb(181, 181, 238);
+}
+
+section > #advert {
+    margin: 40px 0;
 }
 
 video{
@@ -64,4 +92,43 @@ video{
     margin: auto;
     width: 50%;
     height: 30vh;
+}
+
+#products{
+    margin-top: 40px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+#products div {
+    width: 28%;
+    /* margin: 15px; */
+    border: 2px solid black;
+
+}
+.product-tile h3{
+    padding: 15px;
+}
+.product-tile  h2{
+    margin: 15px;
+}
+.product-tile p{
+    line-height: 28px;
+}
+footer{
+    text-align: end;
+    margin-top: 35px;
+    padding: 15px;
+    border: 2px solid rgb(181, 181, 238);
+    background-color: rgb(181, 181, 238);
+    
+}
+footer *{
+    background-color: rgb(181, 181, 238);
+    line-height: 28px;
+}
+footer a {
+    font-size: larger;
+    margin: 5px;
+
 }
